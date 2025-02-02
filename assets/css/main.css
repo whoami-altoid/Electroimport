@@ -1713,12 +1713,35 @@ input, select, textarea {
     color: #fff;
 }
 
+/* Ajustes específicos para videos en el slider */
 .swiper-slide video {
     width: 100%;
     height: auto;
     max-height: 400px;
-    display: block;
-    border-radius: 5px;
     object-fit: contain;
+    border-radius: 5px;
     margin: 0 auto;
+    display: block;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: auto;
 }
