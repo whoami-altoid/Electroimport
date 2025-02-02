@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafaf9;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing4 {
+  padding: 7rem 0;
+}
+
+.mbr-section-maintitle {
+  text-align: center;
+  color: #000000;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mbr-section-subtitle {
+  text-align: center;
+  color: #40169C;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.item {
+  margin-bottom: 2rem;
+}
+
+.item-wrapper {
+  border: 3px solid #03DAC6;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.item-wrapper:hover {
+  transform: translateY(-10px);
+}
+
+.item-img img {
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.subtitle-wrap {
+  display: inline-flex;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background: #03DAC6;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.mbr-section-subtitle {
+  background: #40169C;
+  color: #ffffff;
+  padding: 5px 1rem;
+  border-radius: 2rem;
+  margin: 0;
+}
+
+.mbr-iconfont {
+  color: #000000;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.mbr-section-title {
+  color: #000000;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.mbr-text {
+  color: #000000;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.mbr-section-btn .btn {
+  background: #40169C;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  transition: background 0.3s ease;
+}
+
+.mbr-section-btn .btn:hover {
+  background: #03DAC6;
+}
