@@ -1718,7 +1718,7 @@ input, select, textarea {
     height: auto;
     max-height: 400px;
     display: block;
-    border-radius: 10px;
-    object-fit: cover;
+    border-radius: 5px;
+    object-fit: contain;
     margin: 0 auto;
 }
