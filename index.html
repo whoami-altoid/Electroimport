@@ -104,6 +104,7 @@
         <div class="swiper-button-prev"></div>
     </div>
 </section>
+
                         <!-- Nosotros -->
                             <article id="about">
                                 <h2 class="major">Nosotros</h2>
@@ -169,27 +170,4 @@
             <script src="assets/js/main.js"></script>
 
     </body>
-   <script>
-    const swiper = new Swiper('.productos-slider', {
-        slidesPerView: 3, // Muestra 3 productos por vez en pantallas grandes
-        spaceBetween: 20, // Mantiene un espacio entre los productos
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        loop: false, // Desactiva el loop para que no regrese al principio
-        autoplay: {
-            delay: 3000, // Cambia cada 3 segundos automáticamente
-            disableOnInteraction: true, // Pausa si el usuario interactúa
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 2, // Muestra 2 productos en pantallas medianas
-            },
-            480: {
-                slidesPerView: 1, // Muestra 1 producto en pantallas pequeñas
-            },
-        },
-    });
-</script>
 </html>
