@@ -1260,7 +1260,7 @@ input, select, textarea {
 	z-index: 3;
 
 	/* Color de fondo con degradado */
-	background: linear-gradient(to bottom, #4a90e2, #283e8f); /* Ajusta los colores */
+	background: linear-gradient(to bottom, #4a90e2, #283e8f) !important; /* Ajusta los colores */
 }
 /* Header */
 
