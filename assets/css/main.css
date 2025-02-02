@@ -1713,7 +1713,7 @@ input, select, textarea {
     color: #fff;
 }
 
-.swiper-slide vid {
+.swiper-slide video {
     width: 100%;
     height: auto;
     max-height: 400px;
