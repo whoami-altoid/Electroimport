@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	ElectroImport by ZiZi
 */
 
 html, body, div, span, applet, object,
@@ -1984,7 +1982,7 @@ a:hover {
 /* Ajustes del slider de productos */
 .productos-slider {
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 2rem auto;
 }
 
@@ -1999,6 +1997,7 @@ a:hover {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: auto;
 }
 
 .swiper-button-next,
