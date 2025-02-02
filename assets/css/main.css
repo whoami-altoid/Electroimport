@@ -1686,6 +1686,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 /* Estilos adicionales para el slider */
 .slider-container {
     width: 100%;
@@ -1698,36 +1699,17 @@ input, select, textarea {
 
 .swiper {
     width: 100%;
-    max-width: 800px; /* Limita el tamaño máximo */
-    margin: 0 auto; /* Centra el slider */
-    height: auto; /* Permite que la altura se adapte al contenido */
+    height: 400px;
 }
 
-.swiper-wrapper {
+.swiper-slide img {
     width: 100%;
-    height: auto; /* Ajusta la altura según el contenido */
-}
-
-.swiper-slide {
-    display: flex; /* Centra el contenido del slide */
-    justify-content: center;
-    align-items: center;
-    height: auto; /* Ajusta la altura según el contenido */
-}
-
-.swiper-slide img,
-.swiper-slide video {
-    width: auto; /* Mantiene las proporciones del contenido */
-    max-width: 100%; /* Evita que se salga del contenedor */
-    height: auto; /* Ajusta la altura automáticamente */
-    max-height: 400px; /* Limita la altura máxima */
-    object-fit: contain; /* Asegura que el contenido se ajuste al contenedor */
-    border-radius: 10px; /* Opcional: bordes redondeados */
-    display: block;
-    margin: 0 auto; /* Centra el contenido */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #fff;
+    color: #fff;
 }
