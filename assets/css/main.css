@@ -1715,3 +1715,39 @@ input, select, textarea {
 .swiper-button-prev {
     color: #fff;
 }
+
+/* Estilos para el catálogo */
+.catalogo-container {
+    display: flex; /* Coloca los productos en fila */
+    flex-wrap: wrap; /* Permite que los productos salten de línea si no caben */
+    gap: 20px; /* Espaciado entre los productos */
+    justify-content: center; /* Centra los productos en el contenedor */
+    margin-top: 2rem;
+}
+
+.producto {
+    width: 200px; /* Ancho fijo para cada producto */
+    text-align: center; /* Centra el texto dentro de cada producto */
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    background: rgba(255, 255, 255, 0.1); /* Fondo con transparencia */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.producto img {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.producto h3 {
+    margin: 10px 0 5px; /* Espaciado superior e inferior */
+    font-size: 1.2rem;
+}
+
+.producto p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444; /* Color del texto del precio */
+}
