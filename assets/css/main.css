@@ -1925,3 +1925,63 @@ a:hover {
     color: #fff;
     opacity: 0.75;
 }
+
+/* Sección de productos destacados */
+#featured-products {
+    padding: 2rem;
+    text-align: center;
+    background: #f9f9f9; /* Fondo claro */
+}
+
+#featured-products h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333; /* Color del título */
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los productos se ajusten en varias filas */
+    justify-content: center; /* Centra los productos */
+    gap: 20px; /* Espaciado entre productos */
+}
+
+.producto {
+    width: 200px; /* Ancho fijo para cada producto */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efecto hover */
+}
+
+.producto img {
+    width: 100%; /* Ajusta la imagen al contenedor */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 10px;
+}
+
+.producto h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.producto .precio {
+    font-size: 1.1rem;
+    color: #ff0000; /* Color rojo para precios */
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.producto .calificacion {
+    color: #ffcc00; /* Estrellas amarillas */
+    font-size: 1rem;
+}
