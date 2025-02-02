@@ -1752,3 +1752,9 @@ input, select, textarea {
     font-weight: bold;
     color: #444; /* Color del texto del precio */
 }
+
+#catalogo {
+	border: 2px solid blue;
+	min-height: 200px;
+	visibility: visible !important;
+}
