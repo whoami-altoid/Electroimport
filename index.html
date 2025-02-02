@@ -7,6 +7,10 @@
         <title>ElectroImport</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <!-- swiper css-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- swiper js-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -68,32 +72,38 @@
 <!-- Productos Destacados -->
 <section id="featured-products">
     <h2 class="major">Productos Destacados</h2>
-    <div class="productos-container">
-        <!-- Producto 1 -->
-        <div class="producto">
-            <img src="images/producto1.jpg" alt="Producto 1">
-            <h3>iPhone 13</h3>
-            <p class="precio">$50.00</p>
-            <p class="calificacion">★★★★★</p>
+    <!-- Contenedor del slider -->
+    <div class="swiper productos-slider">
+        <!-- Wrapper de los slides -->
+        <div class="swiper-wrapper">
+            <!-- Producto 1 -->
+            <div class="swiper-slide producto">
+                <img src="images/producto1.jpg" alt="Producto 1">
+                <h3>iPhone 13</h3>
+                <p class="precio">$50.00</p>
+                <p class="calificacion">★★★★★</p>
+            </div>
+            <!-- Producto 2 -->
+            <div class="swiper-slide producto">
+                <img src="images/producto2.jpg" alt="Producto 2">
+                <h3>iPhone 11</h3>
+                <p class="precio">$80.00</p>
+                <p class="calificacion">★★★★☆</p>
+            </div>
+            <!-- Producto 3 -->
+            <div class="swiper-slide producto">
+                <img src="images/producto3.jpg" alt="Producto 3">
+                <h3>Pantalón Deportivo</h3>
+                <p class="precio">$60.00</p>
+                <p class="calificacion">★★★★☆</p>
+            </div>
         </div>
-        <!-- Producto 2 -->
-        <div class="producto">
-            <img src="images/producto2.jpg" alt="Producto 2">
-            <h3>iPhone 11</h3>
-            <p class="precio">$80.00</p>
-            <p class="calificacion">★★★★☆</p>
-        </div>
-        <!-- Producto 3 -->
-        <div class="producto">
-            <img src="images/producto3.jpg" alt="Producto 3">
-            <h3>Lenovo X1 Carbon</h3>
-            <p class="precio">$60.00</p>
-            <p class="calificacion">★★★★☆</p>
-        </div>
-        <!-- Agrega más productos según sea necesario -->
+
+        <!-- Botones de navegación -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 </section>
-                        
                         <!-- Nosotros -->
                             <article id="about">
                                 <h2 class="major">Nosotros</h2>
@@ -159,4 +169,27 @@
             <script src="assets/js/main.js"></script>
 
     </body>
+    <script>
+    const swiper = new Swiper('.productos-slider', {
+        slidesPerView: 3, // Número de productos visibles
+        spaceBetween: 20, // Espacio entre productos
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        loop: true, // Repetición infinita
+        autoplay: {
+            delay: 3000, // Cambia cada 3 segundos
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2, // 2 productos en pantallas medianas
+            },
+            480: {
+                slidesPerView: 1, // 1 producto en pantallas pequeñas
+            },
+        },
+    });
+</script>
 </html>
