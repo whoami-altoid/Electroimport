@@ -1978,3 +1978,8 @@ a:hover {
     font-weight: bold;
     margin: 5px 0;
 }
+
+.producto .calificacion {
+    color: #ffcc00; /* Estrellas amarillas */
+    font-size: 1rem;
+}
