@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electroimport - Ofertas Especiales</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="pricing4">
+    <div class="container">
+      <div class="row align-left justify-content-center">
+        <div class="col-12 text-center">
+          <h1 class="mbr-section-maintitle pb-5"><b>Electroimport</b></h1>
+          <h2 class="mbr-section-subtitle pb-3">Ofertas Especiales</h2>
+        </div>
+
+        <!-- Producto 1 -->
+        <div class="item features-image col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="https://via.placeholder.com/350x250" alt="Producto 1">
+            </div>
+            <div class="align-wrapper">
+              <div class="subtitle-wrap">
+                <span class="mbr-iconfont mobi-mbri-cash mobi-mbri"></span>
+                <h2 class="mbr-section-subtitle">$999</h2>
+              </div>
+            </div>
+            <h3 class="mbr-section-title mb-3">Producto 1</h3>
+            <p class="mbr-text">Descripción del producto 1.</p>
+            <div class="mbr-section-btn mt-3">
+              <a class="btn btn-secondary" href="#">Comprar Ya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="item features-image col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="https://via.placeholder.com/350x250" alt="Producto 2">
+            </div>
+            <div class="align-wrapper">
+              <div class="subtitle-wrap">
+                <span class="mbr-iconfont mobi-mbri-cash mobi-mbri"></span>
+                <h2 class="mbr-section-subtitle">$799</h2>
+              </div>
+            </div>
+            <h3 class="mbr-section-title mb-3">Producto 2</h3>
+            <p class="mbr-text">Descripción del producto 2.</p>
+            <div class="mbr-section-btn mt-3">
+              <a class="btn btn-secondary" href="#">Comprar Ya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repite este bloque para los productos 3 al 20 -->
+        <!-- Producto 3 -->
+        <div class="item features-image col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="https://via.placeholder.com/350x250" alt="Producto 3">
+            </div>
+            <div class="align-wrapper">
+              <div class="subtitle-wrap">
+                <span class="mbr-iconfont mobi-mbri-cash mobi-mbri"></span>
+                <h2 class="mbr-section-subtitle">$599</h2>
+              </div>
+            </div>
+            <h3 class="mbr-section-title mb-3">Producto 3</h3>
+            <p class="mbr-text">Descripción del producto 3.</p>
+            <div class="mbr-section-btn mt-3">
+              <a class="btn btn-secondary" href="#">Comprar Ya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 4 a 20 -->
+        <!-- Copia y pega el bloque anterior, cambiando los detalles (nombre, precio, descripción, imagen) -->
+        <!-- Ejemplo para Producto 4 -->
+        <div class="item features-image col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="https://via.placeholder.com/350x250" alt="Producto 4">
+            </div>
+            <div class="align-wrapper">
+              <div class="subtitle-wrap">
+                <span class="mbr-iconfont mobi-mbri-cash mobi-mbri"></span>
+                <h2 class="mbr-section-subtitle">$499</h2>
+              </div>
+            </div>
+            <h3 class="mbr-section-title mb-3">Producto 4</h3>
+            <p class="mbr-text">Descripción del producto 4.</p>
+            <div class="mbr-section-btn mt-3">
+              <a class="btn btn-secondary" href="#">Comprar Ya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Continúa hasta el Producto 20 -->
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
