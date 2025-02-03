@@ -306,13 +306,16 @@
 			});
 
 		// Events.
-			$body.on('click', function(event) {
-
-				// Article visible? Hide.
-					if ($body.hasClass('is-article-visible'))
-						$main._hide(true);
-
-			});
+		$body.on('click', function(event) {
+			// Si el clic ocurre dentro de un contenedor específico, no hagas nada
+			if ($(event.target).closest('article, nav, .button, #product-details').length > 0) {
+				return;
+			}
+		
+			// Article visible? Hide.
+			if ($body.hasClass('is-article-visible'))
+				$main._hide(true);
+		});
 
 			$window.on('keyup', function(event) {
 
