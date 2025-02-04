@@ -1780,17 +1780,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #ffcc00;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #e6b800;
+    color: #683af0;
 }
 
 .button {
-    background-color: #ffcc00;
+    background-color: #ffffff;
     color: #1b1f22;
     border: none;
     padding: 0.5rem 1rem;
@@ -1800,7 +1800,7 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #e6b800;
+    background-color: #4000ff;
 }
 
 /* Header */
@@ -2037,31 +2037,38 @@ a:hover {
     100% { transform: translateY(0) rotate(360deg); opacity:0; }
 }
 
-/* Asegurar que el contenido esté encima */
+/* Contenedor principal */
 #wrapper {
     position: relative;
     z-index: 1;
 }
 
+
+
+/* Lista de productos */
 #product-list ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 #product-list ul li {
     cursor: pointer;
-    margin: 10px 0;
     font-size: 1.2rem;
-    color: #ffcc00;
-    transition: color 0.3s;
+    color: #27006a;
+    transition: all 0.3s;
+    padding: 10px;
+    border: 1px solid transparent;
 }
 
 #product-list ul li:hover {
-    color: #e6b800;
-    text-decoration: underline;
+    color: #0032e6;
+    transform: scale(1.05); /* Efecto hover con zoom */
+    border-color: #4000ff;
 }
-
 /* Contenedor de detalles */
 #product-details {
     position: fixed;
@@ -2069,7 +2076,7 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.9);
-	color: white;
+	color: rgb(255, 255, 255);
 	border: 1px solid rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
