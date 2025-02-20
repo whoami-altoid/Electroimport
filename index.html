@@ -13,6 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="assets/css/main.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
         <style>
             /* Fondo animado */
             .background {
@@ -105,25 +106,38 @@
                             <article id="intro">
                                 <h2 class="major">Servicios</h2>
                                 <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-                                <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Ojo, mirate esta <a href="#work">tiendita</a>.</p>
+                                <p>Actualmente no contamos con servicio de reparación de iPhone, únicamente disponemos de ciertos módulos o baterías las cuales pueden ser adquiridas en <a href="#work">tienda</a>.</p>
                             </article>
 
                         <!-- Tienda -->
                             <article id="work">
                                 <h2 class="major">Tienda</h2>
+                                <p>Los mejores precios del mercado en iPhone y computadoras Lenovo</p>
                                 <div class="slider-container">
                                     <div class="swiper mySwiper">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide"><img src="images/pic01.jpg" alt="Imagen 1"></div>
-                                            <div class="swiper-slide"><img src="images/pic02.jpg" alt="Imagen 2"></div>
-                                            <div class="swiper-slide"><img src="images/pic03.jpg" alt="Imagen 3"></div>
+                                            <div class="swiper-slide">
+                                                <a href="images/pic01.jpg" data-lightbox="tienda" data-title="Imagen 1">
+                                                    <img src="images/pic01.jpg" alt="Imagen 1">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/pic02.jpg" data-lightbox="tienda" data-title="Imagen 2">
+                                                    <img src="images/pic02.jpg" alt="Imagen 2">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/pic03.jpg" data-lightbox="tienda" data-title="Imagen 3">
+                                                    <img src="images/pic03.jpg" alt="Imagen 3">
+                                                </a>
+                                            </div>
                                         </div>
                                         <!-- Botones de navegación -->
                                         <div class="swiper-button-next"></div>
                                         <div class="swiper-button-prev"></div>
                                     </div>
                                 </div>
-                                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.</p>
+                                <p>Por favor consulte por nuestra página de Instagram el stock actual</p>
 
                                 <!-- Productos Destacados -->
                                 <section id="featured-products">
@@ -132,35 +146,51 @@
                                         <!-- Producto 1 -->
                                         <div class="producto">
                                             <img src="images/producto1.jpg" alt="Producto 1">
-                                            <h3>iPhone 11</h3>
-                                            <p class="precio">$50.00</p>
+                                            <h3>iPhone 11 Pro</h3>
+                                            <p class="precio">450.000</p>
                                             <p class="calificacion">★★★★★</p>
                                         </div>
                                         <!-- Producto 2 -->
                                         <div class="producto">
                                             <img src="images/producto2.jpg" alt="Producto 2">
-                                            <h3>iPhone 12</h3>
-                                            <p class="precio">$80.00</p>
+                                            <h3>iPhone 13</h3>
+                                            <p class="precio">620.000</p>
                                             <p class="calificacion">★★★★☆</p>
                                         </div>
                                         <!-- Producto 3 -->
                                         <div class="producto">
                                             <img src="images/producto3.jpg" alt="Producto 3">
                                             <h3>Lenovo X1 Carbon</h3>
-                                            <p class="precio">$60.00</p>
+                                            <p class="precio">800.000</p>
                                             <p class="calificacion">★★★★☆</p>
                                         </div>
-                                        <!-- Agrega más productos según sea necesario -->
+                                        <!-- Producto 4 -->
+                                        <div class="producto">
+                                            <img src="images/producto4.jpg" alt="Producto 4">
+                                            <h3>iPhone 16</h3>
+                                            <p class="precio">1.100.000</p>
+                                            <p class="calificacion">★★★★★</p>
+                                        </div>
+                                        <!-- Producto 5 -->
+                                        <div class="producto">
+                                            <img src="images/producto5.jpg" alt="Producto 5">
+                                            <h3>iPhone 15 Pro Max</h3>
+                                            <p class="precio">950.000</p>
+                                            <p class="calificacion">★★★★★</p>
+                                        </div>
                                     </div>
 
                                         <!-- Lista de productos -->
                                         <section id="product-list">
                                             <h2 class="major">Productos</h2>
                                             <ul id="product-names">
-                                                <li data-name="iPhone 11" data-price="$50.00" data-image="images/producto1.jpg">iPhone 11</li>
-                                                <li data-name="iPhone 12" data-price="$80.00" data-image="images/producto2.jpg">iPhone 12</li>
-                                                <li data-name="Lenovo X1 Carbon" data-price="$60.00" data-image="images/producto3.jpg">Lenovo X1 Carbon</li>
+                                                <li data-name="iPhone 11" data-price="450.000" data-image="images/producto1.jpg">iPhone 11</li>
+                                                <li data-name="iPhone 13" data-price="620.000" data-image="images/producto2.jpg">iPhone 13</li>
+                                                <li data-name="Lenovo X1 Carbon" data-price="800.000" data-image="images/producto3.jpg">Lenovo X1 Carbon</li>
+                                                <li data-name="iPhone 16" data-price="1.100.000" data-image="images/producto4.jpg">iPhone 16</li>
+                                                <li data-name="iPhone 15 Pro Max" data-price="950.000" data-image="images/producto5.jpg">iPhone 15 Pro Max</li>
                                             </ul>
+                                        </section>
                                         </section>
                                         </article>
 
@@ -175,34 +205,44 @@
 
                         <!-- Nosotros -->
                             <article id="about">
-                                <h2 class="major">Nosotros</h2>
+                                <h2 class="major">Catálogo</h2>
                                 <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-                                <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+                                <p>Catálogo oficial de ElectroImport</p>
+                                <p>Desde iPhone 11 Pro hasta iPhone 16 a los mejores precios, además Smartwatches, baterías para iPhone, cable cargador, y mucho más!</p>
+                                <a href="assets/pdf/catalogo.pdf" class="button" download>Descargar PDF</a>
+                                
+                                <!-- Slider de fotos -->
+                                <div class="slider-container">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="images/catalogo1.jpg" data-lightbox="catalogo"><img src="images/catalogo1.jpg" alt="Imagen 1"></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/catalogo2.jpg" data-lightbox="catalogo"><img src="images/catalogo2.jpg" alt="Imagen 2"></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="images/catalogo3.jpg" data-lightbox="catalogo"><img src="images/catalogo3.jpg" alt="Imagen 3"></a>
+                                            </div>
+                                            <!-- Agrega más imágenes según sea necesario -->
+                                        </div>
+                                        <!-- Botones de navegación -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                </div>
                             </article>
 
                         <!-- Contáctanos -->
                             <article id="contact">
                                 <h2 class="major">Contáctanos</h2>
-                                <form method="post" action="#">
-                                    <div class="fields">
-                                        <div class="field half">
-                                            <label for="name">Name</label>
-                                            <input type="text" name="name" id="name" />
-                                        </div>
-                                        <div class="field half">
-                                            <label for="email">Email</label>
-                                            <input type="text" name="email" id="email" />
-                                        </div>
-                                        <div class="field">
-                                            <label for="message">Message</label>
-                                            <textarea name="message" id="message" rows="4"></textarea>
-                                        </div>
-                                    </div>
-                                    <ul class="actions">
-                                        <li><input type="submit" value="Send Message" class="primary" /></li>
-                                        <li><input type="reset" value="Reset" /></li>
-                                    </ul>
-                                </form>
+                                <p>Síguenos en Instagram:</p>
+                                <a href="https://www.instagram.com/electroimport.lp" target="_blank">
+                                    <img src="images/instagram-logo.png" alt="Instagram" style="width: 50px; height: 50px;">
+                                    @electroimportlp
+                                </a>
+                                <p>Encuéntranos en:</p>
+                                <img src="images/mapa.png" alt="Mapa de ubicación" style="width: 100%; max-width: 600px; height: auto;">
                             </article>
                     </div>
 
@@ -230,12 +270,35 @@
                     },
                 });
             </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+            <script>
+                lightbox.option({
+                    'resizeDuration': 200,
+                    'wrapAround': true,
+                    'disableScrolling': true
+                });
+            </script>
             <script src="assets/js/jquery.min.js"></script>
             <script src="assets/js/browser.min.js"></script>
             <script src="assets/js/breakpoints.min.js"></script>
             <script src="assets/js/util.js"></script>
             <script src="assets/js/main.js"></script>
             <script src="assets/js/product.js"></script>
-            
+            <script>
+                // Dentro de la función de eventos
+                $body.on('click', function(event) {
+                    // Prevenir el cierre del artículo cuando se hace clic en imágenes o enlaces de Lightbox
+                    if ($(event.target).closest('.lightbox, [data-lightbox], .lb-overlay, .lb-container').length) {
+                        event.stopPropagation();
+                        return;
+                    }
+
+                    // Article visible? Hide.
+                    if ($body.hasClass('is-article-visible'))
+                        $main._hide(true);
+                });
+            </script>
+                      
     </body>
 </html>
+
