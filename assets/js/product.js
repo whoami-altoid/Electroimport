@@ -12,16 +12,26 @@ productNames.forEach((product) => {
         const name = product.getAttribute('data-name');
         const price = product.getAttribute('data-price');
         const image = product.getAttribute('data-image');
-
+        
         productName.textContent = name;
         productPrice.textContent = price;
         productImage.src = image;
-
+        
         productDetails.classList.remove('hidden');
+        productDetails.style.opacity = 0;
+        setTimeout(() => {
+            productDetails.style.opacity = 1;
+        }, 10); // Suaviza la aparición del contenedor de detalles
     });
 });
 
 // Cerrar detalles del producto
 closeDetails.addEventListener('click', () => {
+    productDetails.style.opacity = 0;
+    setTimeout(() => {
+        productDetails.classList.add('hidden');
+    }, 500); // Suaviza la desaparición del contenedor de detalles
+});
+
     productDetails.classList.add('hidden');
 });
